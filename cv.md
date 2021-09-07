@@ -1,5 +1,3 @@
-# [RSSchool]()
-
 # *Denis Parfimovich*
 
 -----------
