@@ -1,1 +1,81 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denis Parfimovich CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <div class="hatContent">
+            <h1>Denis Parfimovich</h1>
+        </div>
+    </header>
+    <section>
+        <div class="base">            
+            <div>                
+                <div class="AboutMe">
+                    <h2>About me</h2>
+                    <p>I am 26 years old, born and raised in Belarus. The place where I was born is located near the Mir Castle and is called Lyubno. At the moment, I have actively started studying html, css and JavaScript. I am very good at learning these programming languages and I plan to seriously engage in front-end development in the future. I have such strong qualities as sociability, perseverance, patience and purposefulness. I have everything I need.</p>
+                </div>
+                <div class="skills">
+                    <h2>My skills and work experience</h2>
+                    <p>At this moment I work in the Ministry for Emergency Situations of the Republic of Belarus. I had no previous experience in the IT field, but I have a great desire to develop in this direction!</p>
+                </div>
+                <div class="contacts">
+                    <h2>Contacts:</h2>
+                    <ul>
+                        <li>e-mail: <a href="mailto:denis.parfimovich@gmail.com">denis.parfimovich@gmail.com</a>  </li>
+                        <li>mobile: +375447799949</li>
+                        <li>instagram: <a href="https://www.instagram.com/denis.parfimovich/" target="_blank">denis.parfimovich</a></li>
+                    </ul>
+                </div>
+                <div class="javaScript">
+                    <h2>Example of a task on codewars: Create Phone Number</h2>
+                    <p>Write a function that accepts an array of 10 integers (between 0 and 9), that returns a string of those numbers in the form of a phone number.</p>
+                    <pre><code>
+                        function createPhoneNumber(x) {
+                            const b=['(']
+                            for (let i=0; i<3; i++){
+                                b.push(x[i].toString())
+                            }
+                            b.push(') ')
+                            for (let i=3; i<6; i++){
+                                b.push(x[i].toString())
+                            }
+                            b.push('-')
+                            for (let i=6; i<10; i++){
+                                b.push(x[i].toString())
+                            }
+                            return b.join('')
+                          }
+                    </code></pre>
+                </div>
+            </div>                          
+            <div class="photo">
+                <img class="imgMe" src="img/me.jpg" alt="me">
+            </div>             
+        </div>
+    </section>
+    <footer>
+        <div class="footerContent">
+            <div>
+                <div class="RSSchool">
+                    <a href="https://rs.school/js/" target="_blank"><img class="imgRSS" src="img/RSSchool.png" alt="logoRSSchool"></a>
+                    <a class="linkRSS" href="https://rs.school/js/" target="_blank">RSSchool</a>
+                </div>
+                <div class="gitHub">
+                    <a href="https://github.com/DenisParfimovich" target="_blank"> <img src="img/github.svg" alt="logoMyGitHub"></a>
+                    <a class="linkgitHub" href="https://github.com/DenisParfimovich" target="_blank">MyGitHub</a>
+                </div>              
+            </div>
+            <div class="year"><p>2021</p></div>
+        </div>
+    </footer>
+</body>
+</html>
